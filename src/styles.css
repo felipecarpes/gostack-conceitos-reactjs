@@ -4,22 +4,47 @@
   box-sizing: border-box;
 }
 
+#root {
+  justify-content: center;
+}
+
 body {
   font-size: 14px;
+  background-color: aliceblue;
+  display: flex;
+  height: 80%;
+  width: 50%;
+  margin: 0 auto
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.all-body {
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 4px
 }
 
 div {
   width: 100%;
-  margin: 20px;
+  height: 780px;
+  background-color: #fff;
 }
 
 div li {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 div li + li {
   margin-top: 15px;
+  border: 1px solid #999;
+  padding: 4px
 }
 
 button {
